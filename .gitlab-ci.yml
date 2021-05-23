@@ -1,0 +1,25 @@
+stages:
+- build
+- test
+- deploy
+
+build_vue:
+  stage: build
+  script:
+  - echo "step 1....."
+  - echo "step 2"
+  - echo "done"
+
+test_vue:
+  stage: test
+  script:
+  - echo "step 1....."
+  - echo "step 2"
+  - echo "done"
+
+deploy_vue:
+  stage: deploy
+  script:
+  - echo "step 1...."
+  - echo "step 2"
+  - echo "done"
